@@ -1,0 +1,599 @@
+/*  ================================
+        global area start
+    ================================ */
+
+body {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    color: #1a1a1a;
+}
+
+a,
+a:hover,
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+.main-div {
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*  ================================
+        global area end
+    ================================ */
+
+/*  ================================
+        header area start
+    ================================ */
+
+.header-top {
+    overflow: hidden;
+    padding: 15px 0;
+    background-color: #00112B;
+}
+
+.wel-come {
+    padding: 20px 0;
+    font-weight: 600;
+}
+
+.wel-come span {
+    color: #fff;
+}
+
+.wel-come h4 {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+.support h2 {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.support p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+
+.menu-top {
+    text-align: right;
+}
+
+.menu-top ul {
+    display: inline-block;
+}
+
+.menu-top li {
+    list-style: none;
+    display: inline-block;
+    padding: 18px 0 0;
+}
+
+.separate {
+    margin: 0 10px;
+    color: #000;
+}
+
+.menu-top li a {
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+.menu-top li a:hover {
+    color: #fff;
+}
+
+/*= menu part =*/
+
+.menu-area {
+    padding: 10px 0;
+    background-color: #0066FF;
+}
+
+.main-menu {
+    text-align: center;
+}
+
+.main-menu ul {
+    display: inline-block;
+    padding: 0;
+    margin: 6px 0;
+}
+
+.main-menu ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.main-menu ul li a {
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 10px 17px;
+    display: block;
+    font-weight: 600;
+}
+
+.main-menu ul li a:hover {
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    color: #000;
+}
+
+.menu-active {
+    background-color: #F2F2F2;
+    color: #1a1a1a !important;
+    border-radius: 20px;
+}
+
+
+.service-box {
+    overflow: hidden;
+    padding: 15px 0;
+}
+
+.support-box ul.service-box-list li {
+    float: left;
+    width: 24.3%;
+    list-style: none;
+    position: relative;
+    padding: 10px 0;
+    margin-right: 10px;
+}
+
+.support-box ul li:last-child {
+    margin-right: 0;
+}
+
+.service-left {
+    width: 30%;
+    float: left;
+    text-align: right;
+}
+
+.service-left i {
+    font-size: 40px;
+    color: #00112B;
+}
+
+.service-right {
+    width: 70%;
+    float: right;
+    padding: 8px 16px;
+    display: inline-block;
+    color: #1a1a1a;
+    transition: 0.5s;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    font-size: 14px;
+}
+
+.service-right::before {
+    position: absolute;
+    bottom: 0;
+    left: 17px;
+    content: "";
+    border-bottom: 1px solid #00112B;
+    width: 50%;
+}
+
+.service-right::after {
+    position: absolute;
+    bottom: -4px;
+    left: 14px;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #00112B;
+}
+
+/*  ================================
+        header area end
+    ================================ */
+
+/*  ================================
+        product title area start
+    ================================ */
+
+.pro-title {
+    background-color: #F4F4F4;
+    color: #fff;
+    padding: 15px 30px;
+    margin: 0 0 30px;
+}
+
+.pro-title a,
+.pro-title h5 {
+    color: #000;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.pro-title h5 {
+    line-height: 1.4;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*  ================================
+        product title area end
+    ================================ */
+
+/*  ================================
+        product area start
+    ================================ */
+
+.product-wraper {
+    border: 1px solid #D1D1D1;
+    overflow: hidden;
+    padding: 40px 20px;
+    margin-bottom: 60px;
+}
+
+.product-dec h3 {
+	font-family: 'Raleway', sans-serif;
+	color: #00112B;
+	text-transform: capitalize;
+	font-size: 36px;
+	margin: 30px 0 20px;
+	font-weight: bold;
+}
+
+.product-dec h3:first-child {
+    margin-top: 0;
+}
+
+.product-dec h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #1a1a1a;
+    font-size: 18px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.specs h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	color: #1a1a1a;
+	font-size: 26px;
+	line-height: 1.3;
+	margin-bottom: 20px;
+	position: relative;
+	top: -26px;
+	left: 28px;
+	background-color: #fff;
+	display: inline-block;
+}
+
+.specs h3 img{
+    width: 50px;
+}
+
+.specs-sep {
+	margin-bottom: 30px;
+	overflow: hidden;
+	padding: 0 30px;
+}
+
+.purple-box{
+    background-color: #00112B;
+    padding: 40px 0;
+    margin-bottom: 50px;
+}
+
+.box-border {
+	border: 1px solid #ccc;
+	margin-bottom: 60px;
+}
+
+.ht{
+    top: -22px !important;
+}
+/*  ================================
+        product area end
+    ================================ */
+
+/*  ================================
+        tab area start
+    ================================ */
+.tab-part-area {
+padding: 0 0 50px;
+}
+
+section.tab-section {
+display: none;
+padding: 40px 45px;
+border: 1px solid #ddd;
+color: #1a1a1a;
+overflow: hidden;
+}
+
+.tab-area input {
+display: none;
+}
+
+.tab-area label {
+color: #000;
+font-size: 16px;
+font-weight: 600;
+border: 1px solid transparent;
+display: inline-block;
+margin: 0 0 -1px;
+padding: 10px 30px;
+text-align: center;
+text-transform: capitalize;
+background-color: #F8F8FA;
+border: 1px solid #ddd;
+transition: 0.5s;
+}
+
+.tab-area label:hover {
+cursor: pointer;
+color: #fff;
+border: 1px solid #00112B;
+background-color: #00112B;
+}
+
+.tab-area input:checked+label {
+color: #fff;
+border: 1px solid #00112B;
+background-color: #00112B;
+}
+
+#tab1:checked~#content1,
+#tab2:checked~#content2,
+#tab3:checked~#content3,
+#tab4:checked~#content4,
+#tab5:checked~#content5 {
+display: block;
+}
+
+.tab-section p a {
+color: #000;
+font-weight: 600;
+text-decoration: underline;
+}
+
+/*  ================================
+        tab area end
+    ================================ */
+
+/*  ================================
+        categories area start
+    ================================ */
+.categories-area {
+    padding: 0 0 80px;
+}
+
+.categories-area h3 {
+    color: #000;
+    font-size: 32px;
+font-weight: bold;
+    text-transform: uppercase;
+}
+
+.categories-area a h3 {
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    z-index: 999;
+}
+
+.Category-info {
+    margin-top: 30px;
+}
+
+.Category-info img {
+	-webkit-transform: scale(1.01);
+	transform: scale(1.08);
+	-webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;  
+}
+
+.Category-info:hover.Category-info img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+/*  ================================
+        categories area end
+    ================================ */
+
+/*  ================================
+        care area start
+    ================================ */
+
+.care-area {
+    padding: 10px 0 0;
+    background-color: #0066FF;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.single-care i {
+    font-size: 30px;
+    color: #fff;
+}
+
+.single-care h3 {
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.single-care p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+
+/*  ================================
+        care area end
+    ================================ */
+
+/*  ================================
+        footer area start
+    ================================ */
+
+.footer-top {
+    padding: 30px 0;
+    background-color: #00112B;
+}
+
+.footer-widget h2 {
+    padding: 0;
+    margin: 0 0 40px;
+    text-transform: uppercase;
+    font-size: 24px;
+    position: relative;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.footer-widget h2::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 30%;
+    border: 1px solid #fff;
+}
+
+.footer-widget.footer-logo {
+    margin-top: 110px;
+}
+
+.footer-widget p {
+    margin: 0 0 20px;
+    line-height: 18px;
+    font-size: 13px;
+    color: #fff;
+}
+
+.footer-widget a {
+    color: #fff;
+    margin: 0 0 20px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+    line-height: 19px;
+    text-transform: capitalize;
+}
+
+.footer-widget a:hover {
+    text-decoration: none;
+}
+
+.footer-widget ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-widget ul li {
+    list-style: none;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.footer-widget ul li a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+
+.footer-widget ul li a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.sub-btn {
+    border: 1px solid #fff;
+    background: #fff;
+    color: #000 !important;
+    text-transform: uppercase !important;
+    padding: 10px 20px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-top: 20px !important;
+    margin-bottom: 0 !important;
+}
+
+.footer-logo a {
+    margin: 0;
+    display: block;
+}
+
+.footer-logo p {
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.main-footer {
+    background-color: #00112B;
+}
+
+.copy-right {
+    border-top: 1px solid #ccc;
+    padding: 30px 0;
+}
+
+.copy-right p a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.copy-right p {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+}
+
+/*  ================================
+        footer area end
+    ================================ */
